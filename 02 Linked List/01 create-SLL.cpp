@@ -1,5 +1,4 @@
 Node* constructLL(vector<int>& arr) {
-    // Write your code here
     Node *head;
     Node *trav = head;
     for(int i:arr){

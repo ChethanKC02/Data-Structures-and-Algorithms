@@ -2,12 +2,6 @@
 class Solution {
 private:
     ListNode *merge(ListNode *l,ListNode *r){
-        // if(l == nullptr){
-        //     return r;
-        // }
-        // if(r == nullptr){
-        //     return l;
-        // }
         ListNode *head = new ListNode(0);
         ListNode *trav = head;
         while(l && r){

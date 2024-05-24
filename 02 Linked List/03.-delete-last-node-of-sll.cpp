@@ -1,6 +1,5 @@
 
 Node *deleteLast(Node *list){
-    // Write your code here
     if(!list || !list->next){
         return nullptr;
     }
